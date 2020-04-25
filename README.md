@@ -36,6 +36,7 @@
 #### Minimax
 
 
-### Tugas 4 - 4-Queen
+### Tugas 4
+### 4-Queen
     
     
