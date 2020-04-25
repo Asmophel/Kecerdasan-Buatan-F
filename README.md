@@ -3,7 +3,7 @@
 ##### Fandi Wahyu R - 05111840000108
 
 ### Outline
-+ [Tugas 1 - Uninformed Search](#Tugas 1 - Uninformed Search)
++ [Tugas 1 - Uninformed Search](#Tugas-1-Uninformed Search)
     * [BFS](#BFS)
     * [DFS](#DFS)
     * [IDS](#IDS)
