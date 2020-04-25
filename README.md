@@ -24,13 +24,15 @@
 #### 8-Queen
 
 
-### Tugas 2 - Informed Search
+### Tugas 2
+### Informed Search
 #### Heuristic-1
 #### Heuristic-2
 #### Hill-Climbing
 
 
-### Tugas 3 - Adversarial Search
+### Tugas 3
+### Adversarial Search
 #### Minimax
 
 
