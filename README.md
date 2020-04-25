@@ -3,10 +3,11 @@
 ##### Fandi Wahyu R - 05111840000108
 
 ### Outline
-+ [Tugas 1](#Tugas-1)
++ [Tugas 1adsa](#Tugas-1)
     * [BFS](#BFS)
     * [DFS](#DFS)
     * [IDS](#IDS)
+    * [8-Queen](#8-Queen)
 + [Soal 2](#soal-2)
     * [2a](#2a)
     * [2b](#2b)
