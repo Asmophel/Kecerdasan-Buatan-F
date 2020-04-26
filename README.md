@@ -106,9 +106,41 @@ Langkah-langkahnya adalah :
 
 ### Tugas 2
 ### Informed Search
+Dalam Tugas 2, kita harus menyelesaikan 8-puzzle dengan metode heuristic1 dan heuristic2
+
+Dalam 8-Puzzle kita harus mencapai goal puzzle dari initial puzzle yang diberikan. Untuk mencapai goal puzzle, 8-puzzle ini menyediakan satu grid kosong agar grid-grid lain disekitarnya dapat digerakkan. Sebagai contoh Inisial State dan Goal State dari sebuah puzzle adalah :
+![Image-3](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/1.PNG)
+
+Dalam bahasan ini, fungsi heuristik yang akan kita tampilkan yaitu adalah sebagai berikut.
+h₁(n) : sebagai banyak grid yang menempati tempat yang salah.
+h₂(n) : sebagai total keseluruhan jarak tiap grid yang menempati tempat yang salah terhadap posisi grid yang benar, atau sering disebut dengan manhattan distance.
+
 #### Heuristic-1
+Solusi Heuristic1 adalah banyaknya grid yang menempati posisi yang salah
+
+langkah-langkahnya adalah :
+![Image-4](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/2.PNG)
+![Image-5](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/2,5.PNG)
+![Image-6](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/3.PNG)
+
+Solusi :
+Initial State -> Right -> Up -> Right -> Down -> Down -> Left -> Up -> Right -> Down(Goal)
+
 #### Heuristic-2
+Solusi Heuristic 2 adalah total keseluruhan jarak tiap grid yang menempati tempat yang salah terhadap posisi grid yang benar, atau sering disebut dengan manhattan distance.
+
+langkah-langkahnya adalah :
+![Image-7](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/4.PNG)
+![Image-8](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/5.PNG)
+![Image-9](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/6.PNG)
+
+Solusi :
+Initial State -> Right -> Up -> Right -> Down -> Down -> Left -> Up -> Right -> Up(Goal)
+
+Penggunaan Heuristic2 lebih optimal karena pada penggunaan fungsi heuristik pertama jumlah State puzzle yang memiliki fungsi heuristik yang sama lebih banyak dari pada penggunaan fungsi heuristik kedua.
+
 #### Hill-Climbing
+
 
 
 ### Tugas 3
