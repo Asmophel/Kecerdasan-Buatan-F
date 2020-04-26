@@ -47,7 +47,7 @@ Pop sebuah node dari stack untuk memilih node berikutnya untuk mengunjungi dan m
 Ulangi proses ini sampai tumpukan kosong. Namun, pastikan bahwa node yang dikunjungi ditandai. Ini akan mencegah Anda mengunjungi simpul yang sama lebih dari sekali. Jika Anda tidak menandai node yang dikunjungi dan Anda mengunjungi node yang sama lebih dari sekali, Anda mungkin berakhir dalam loop tak terbatas.
 
 Contoh DFS :
-![Image-2](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/breadth_first_traversal.jpg)
+![Image-2](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/9fa1119.jpg)
 
 #### IDS
 #### 8-Queen
