@@ -255,5 +255,7 @@ Oleh karena itu pilihan terbaik untuk X, adalah bermain [2,2], yang akan menjami
 
 ### Tugas 4
 ### 4-Queen
-    
+4-Queen memiliki penyelesaian yang sama persis dengan 8-Queen, Source Code dari 8-Queen hanya perlu diganti pada N nya menjadi N = 4
+
+Pada problem 4 queen ini digunakan algoritma backtracking, yaitu mencoba menaruh queen dimulai dari kolom atas kiri atau kolom pertama baris pertama, lalu kita mencoba menaruh queen lain dan di cek apakah ada yang saling melawan atau tidak. Jika saat kita menaruh queen dan tidak ada yang saling melawan dengan queen lain maka baris dan kolomnya akan dijadikan sebagai bagian dari solusi, bila pada hasil akhir tidak ditemukan hasil yang tepat karena masih ada queen yang saling melawan, maka akan di backtrack dan return false.
     
