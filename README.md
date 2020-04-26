@@ -119,6 +119,7 @@ h₂(n) : sebagai total keseluruhan jarak tiap grid yang menempati tempat yang s
 Solusi Heuristic1 adalah banyaknya grid yang menempati posisi yang salah
 
 langkah-langkahnya adalah :
+
 ![Image-4](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/2.PNG)
 ![Image-5](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/2,5.PNG)
 ![Image-6](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/3.PNG)
@@ -130,6 +131,7 @@ Initial State -> Right -> Up -> Right -> Down -> Down -> Left -> Up -> Right -> 
 Solusi Heuristic 2 adalah total keseluruhan jarak tiap grid yang menempati tempat yang salah terhadap posisi grid yang benar, atau sering disebut dengan manhattan distance.
 
 langkah-langkahnya adalah :
+
 ![Image-7](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/4.PNG)
 ![Image-8](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/5.PNG)
 ![Image-9](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/6.PNG)
