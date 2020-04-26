@@ -81,7 +81,9 @@ IDS mencegah loop ini dan akan mencapai node berikut pada kedalaman berikut, den
 Untuk grafik ini, karena lebih banyak kedalaman ditambahkan, dua siklus "ABFE" dan "AEFB" hanya akan menjadi lebih lama sebelum algoritma menyerah dan mencoba cabang lain.
 
 #### 8-Queen
+The Eight Queen Problem, juga dikenal sebagai Eight Queen Puzzle, adalah masalah menempatkan delapan ratu di papan catur 8 x 8 sehingga tidak satupun dari mereka saling menyerang. Dengan menyerang, maksud kami tidak ada dua yang berada di baris, kolom, atau diagonal yang sama. Eight Queen Problem adalah bentuk masalah yang lebih umum yang dikenal sebagai N Queen Problem atau N Queen Puzzle di mana Anda harus menempatkan ratu N pada papan catur N x N sedemikian rupa sehingga tidak ada yang saling menyerang.
 
+Solusinya adalah dengan algoritma backtracking. Idenya adalah untuk menempatkan ratu satu per satu di kolom yang berbeda, mulai dari kolom paling kiri. Ketika kami menempatkan seorang ratu dalam sebuah kolom, kami memeriksa bentrokan dengan ratu yang sudah ditempatkan. Di kolom saat ini, jika kami menemukan baris yang tidak ada bentrokan, kami menandai baris dan kolom ini sebagai bagian dari solusi. Jika kami tidak menemukan baris seperti itu karena bentrokan, maka kami mundur dan mengembalikan false.
 
 ### Tugas 2
 ### Informed Search
