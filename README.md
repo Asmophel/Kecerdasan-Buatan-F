@@ -155,7 +155,7 @@ Dengan sejumlah besar input dan fungsi heuristik yang baik, ia mencoba untuk men
 - `Heuristic Search` berarti bahwa algoritma pencarian ini mungkin tidak menemukan solusi optimal untuk masalah tersebut. Namun, itu akan memberikan solusi yang baik dalam waktu yang wajar.
 - `Heuristic Function` adalah fungsi yang akan memberi peringkat semua alternatif yang mungkin pada setiap langkah percabangan dalam algoritma pencarian berdasarkan informasi yang tersedia. Ini membantu algoritma untuk memilih rute terbaik dari rute yang mungkin.
 
-![image-10](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/hill%20climb.png
+![image-10](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/hill%20climb.png)
 
 #### Fitur Hill Climbing
 #### a. Varian dari menghasilkan dan menguji algoritma
