@@ -92,15 +92,19 @@ Langkah-langkahnya adalah :
      kembali benar
 3) Coba semua baris di kolom saat ini.
     Lakukan mengikuti untuk setiap baris yang dicoba.
+    
      a) Jika ratu dapat ditempatkan dengan aman di baris ini
         kemudian tandai [baris, kolom] ini sebagai bagian dari
         solusi dan periksa secara rekursif jika menempatkan
         ratu di sini mengarah ke solusi.
+        
      b) Jika menempatkan ratu di [baris, kolom] mengarah ke
         solusi kemudian mengembalikan true.
+        
      c) Jika menempatkan ratu tidak mengarah ke solusi, maka
         hapus tanda [baris, kolom] ini (Mundur) dan pergi ke
         langkah (a) untuk mencoba baris lain.
+        
 3) Jika semua baris telah dicoba dan tidak ada yang berhasil,
     return false untuk memicu backtracking.
 
