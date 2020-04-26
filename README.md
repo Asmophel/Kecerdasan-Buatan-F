@@ -152,8 +152,8 @@ Dengan sejumlah besar input dan fungsi heuristik yang baik, ia mencoba untuk men
 
 ![image-10](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/hill%20climb.png
 
-## Fitur Hill Climbing
-### a. Varian dari menghasilkan dan menguji algoritma
+#### Fitur Hill Climbing
+#### a. Varian dari menghasilkan dan menguji algoritma
 
 Ini adalah varian dari algoritma generate and test. Algoritma generate and test adalah sebagai berikut:
 - Hasilkan solusi yang mungkin.
@@ -162,12 +162,12 @@ Ini adalah varian dari algoritma generate and test. Algoritma generate and test 
 
 Oleh karena itu kami menyebut Hill climbing sebagai varian dari algoritma hasil dan uji karena mengambil umpan balik dari prosedur pengujian. Kemudian umpan balik ini digunakan oleh generator dalam memutuskan langkah selanjutnya dalam ruang pencarian.
 
-### b. Menggunakan Greedy Aproach
+#### b. Menggunakan Greedy Aproach
 
 Pada titik mana pun di ruang keadaan, pencarian bergerak ke arah itu saja yang mengoptimalkan biaya fungsi dengan harapan menemukan solusi optimal di akhir.
 
-## Jenis Hill Climbing
-### a. Simple Hill Climbing
+#### Jenis Hill Climbing
+#### a. Simple Hill Climbing
 
 Ini memeriksa node tetangga satu per satu dan memilih node tetangga pertama yang mengoptimalkan biaya saat ini sebagai node berikutnya. Ini memeriksa node tetangga satu per satu dan memilih node tetangga pertama yang mengoptimalkan biaya saat ini sebagai node berikutnya.
 
@@ -176,7 +176,7 @@ Algoritma Simple Hill climbing :
 - Loop sampai keadaan solusi ditemukan atau tidak ada operator baru yang dapat diterapkan ke keadaan saat ini.
 - Exit
 
-### b. Steepest-Ascent Hill Climbing
+#### b. Steepest-Ascent Hill Climbing
 
 Pertama-tama memeriksa semua node tetangga dan kemudian memilih simpul yang paling dekat dengan keadaan solusi pada simpul berikutnya.
 
@@ -184,11 +184,11 @@ Pertama-tama memeriksa semua node tetangga dan kemudian memilih simpul yang pali
 - Ulangi langkah ini sampai solusi ditemukan atau keadaan saat ini tidak berubah
 - Exit
 
-### c. Stochastic Hill Climbing
+#### c. Stochastic Hill Climbing
 
 Itu tidak memeriksa semua node tetangga sebelum memutuskan node mana yang akan dipilih. Itu hanya memilih node tetangga secara acak dan memutuskan (berdasarkan jumlah peningkatan tetangga itu) apakah akan pindah ke tetangga itu atau untuk memeriksa yang lain.
 
-## State Space Diagram untuk Hill Climbing
+#### State Space Diagram untuk Hill Climbing
 
 adalah representasi grafis dari himpunan status yang dapat dicapai oleh algoritma pencarian kami vs nilai fungsi objektif kami (fungsi yang ingin kami maksimalkan).
 
@@ -200,7 +200,7 @@ Solusi terbaik adalah ruang negara di mana fungsi objektif memiliki nilai maksim
 
 ![image-11](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/77142942-355a7680-6ab4-11ea-8c1d-66b86aaef6c9.png)
 
-## Daerah berbeda di State Space Diagram
+#### Daerah berbeda di State Space Diagram
 
 - `Local Maximum` Ini adalah state yang lebih baik daripada state tetangganya namun ada state yang lebih baik daripada itu (global maksimum). Keadaan ini lebih baik karena di sini nilai fungsi objektif lebih tinggi daripada tetangganya.
 - `Global Maximum` Ini adalah keadaan terbaik yang mungkin dalam diagram ruang keadaan. Ini karena pada keadaan ini, fungsi objektif memiliki nilai tertinggi.
@@ -209,7 +209,7 @@ Solusi terbaik adalah ruang negara di mana fungsi objektif memiliki nilai maksim
 - `Current State` Wilayah diagram ruang keadaan tempat kami saat ini hadir selama pencarian.
 - `Shoulder` Ini adalah dataran tinggi yang memiliki tepi menanjak.
 
-## Permasalahan di Berbagai Daerah di Hill Climbing
+#### Permasalahan di Berbagai Daerah di Hill Climbing
 
 - `Local Maximum` semua state tetangga memiliki nilai yang lebih buruk daripada keadaan saat ini. Karena Hill Climbing menggunakan pendekatan serakah, itu tidak akan bergerak ke keadaan yang lebih buruk dan mengakhiri dirinya sendiri. Proses ini akan berakhir meskipun mungkin ada solusi yang lebih baik.  
 
