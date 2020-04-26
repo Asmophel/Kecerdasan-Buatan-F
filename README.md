@@ -87,7 +87,6 @@ Solusinya adalah dengan algoritma backtracking. Idenya adalah untuk menempatkan 
 
 Langkah-langkahnya adalah :
 
-675/5000
 1) Mulai di kolom paling kiri
 2) Jika semua ratu ditempatkan
      kembali benar
