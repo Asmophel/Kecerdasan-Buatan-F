@@ -23,7 +23,7 @@ BFS atau Breadth First Search adalah algoritma untuk melintasi atau mencari stru
 
 Algoritma Breadth First Search (BFS) menelusuri grafik dalam gerakan breadthward dan menggunakan ``` queue ``` untuk mengingat untuk mendapatkan simpul berikutnya untuk memulai pencarian, ketika jalan buntu terjadi dalam setiap iterasi.
 
-
+![Image-1](https://raw.githubusercontent.com/Asmophel/Kecerdasan-Buatan-F/master/Gambar/breadth_first_traversal.jpg)
 
 Seperti dalam contoh yang diberikan di atas, algoritma BFS melintasi dari A ke B ke E ke F pertama kemudian ke C dan G terakhir ke D. Ia menggunakan aturan berikut.
 
