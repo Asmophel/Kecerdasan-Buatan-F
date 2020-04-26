@@ -85,6 +85,26 @@ The Eight Queen Problem, juga dikenal sebagai Eight Queen Puzzle, adalah masalah
 
 Solusinya adalah dengan algoritma backtracking. Idenya adalah untuk menempatkan ratu satu per satu di kolom yang berbeda, mulai dari kolom paling kiri. Ketika kami menempatkan seorang ratu dalam sebuah kolom, kami memeriksa bentrokan dengan ratu yang sudah ditempatkan. Di kolom saat ini, jika kami menemukan baris yang tidak ada bentrokan, kami menandai baris dan kolom ini sebagai bagian dari solusi. Jika kami tidak menemukan baris seperti itu karena bentrokan, maka kami mundur dan mengembalikan false.
 
+Langkah-langkahnya adalah :
+
+675/5000
+1) Mulai di kolom paling kiri
+2) Jika semua ratu ditempatkan
+     kembali benar
+3) Coba semua baris di kolom saat ini.
+    Lakukan mengikuti untuk setiap baris yang dicoba.
+     a) Jika ratu dapat ditempatkan dengan aman di baris ini
+        kemudian tandai [baris, kolom] ini sebagai bagian dari
+        solusi dan periksa secara rekursif jika menempatkan
+        ratu di sini mengarah ke solusi.
+     b) Jika menempatkan ratu di [baris, kolom] mengarah ke
+        solusi kemudian mengembalikan true.
+     c) Jika menempatkan ratu tidak mengarah ke solusi, maka
+        hapus tanda [baris, kolom] ini (Mundur) dan pergi ke
+        langkah (a) untuk mencoba baris lain.
+3) Jika semua baris telah dicoba dan tidak ada yang berhasil,
+    return false untuk memicu backtracking.
+
 ### Tugas 2
 ### Informed Search
 #### Heuristic-1
